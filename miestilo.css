@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Permanent Marker";
+}
+body{
+    background: beige  ;
+}
+.header{
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #C0392B ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index:80;
+   } 
+.logo{
+    height: 40px;
+    width: 40px;
+    padding: 0%;
+}
+.n{
+    font-size: 35px;
+    font-weight: 500;
+
+}
+a{
+    font-size: 23px;
+    color: beige;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 15px;
+    transition: .3s;
+}
+a:hover{
+        color: aliceblue;
+}
+h2{
+    height: 10vh;
+    font-size: 25px;
+}
+p {
+    font-size: 16px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    padding: 0.5%;
+    right: 30px;
+}
+.home{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+}
+.contenido{
+    max-width: 600px;
+}
+.contenido h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.contenido h3{
+    font-size: 40px;
+    font-weight: 400;
+    color:#F5B041 ;
+}
+.contenido .btn{
+    width: 340;
+    height: 80px;
+    background: transparent;
+
+}
+.btn a{
+    display: inline-flex;
+    justify-content: center;
+    width: 400px;
+    height: 400;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: beige   ;
+    color:#F5B041;
+}
+.btn a:hover{
+    color: darkgoldenrod;
+}
+ul{
+    height: 10vh;
+}
+.b img{
+    border-radius: 135px;
+    padding-top: 0  10%;
+    width: 79vh;
+    height: 600px;
+    display: flex;
+    justify-content: right;
+}
+
+.t{
+    display: inline-flex;
+    justify-content: center;
+    width: 400px;
+    height: 400;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background:beige ;
+    color: #F5B041 ;
+}
+footer{
+    position: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #C0392B  ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index:80;
+   } 
